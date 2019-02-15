@@ -1,5 +1,5 @@
-## Test ECMAScript 6 modules in NodeJS
+## Test es6 modules in nodejs
 
-This example illustrates how to debug a es6 module under nodejs.
+Debug an es6 module under nodejs, a simple example.
 
 Open package.json, run/debug either "test_1" or "test_2".
