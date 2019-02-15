@@ -1,0 +1,44 @@
+{
+  "display": true,
+  "position": "bottom",
+  "offset": false,
+  "gridLines": {
+    "display": true,
+    "color": "rgba(0, 0, 0, 0.1)",
+    "lineWidth": 1,
+    "drawBorder": true,
+    "drawOnChartArea": true,
+    "drawTicks": true,
+    "tickMarkLength": 10,
+    "zeroLineWidth": 1,
+    "zeroLineColor": "rgba(0,0,0,0.25)",
+    "zeroLineBorderDash": [],
+    "zeroLineBorderDashOffset": 0,
+    "offsetGridLines": false,
+    "borderDash": [],
+    "borderDashOffset": 0
+  },
+  "scaleLabel": {
+    "display": false,
+    "labelString": "",
+    "lineHeight": 1.2,
+    "padding": {
+      "top": 4,
+      "bottom": 4
+    }
+  },
+  "ticks": {
+    "beginAtZero": false,
+    "minRotation": 0,
+    "maxRotation": 50,
+    "mirror": false,
+    "padding": 0,
+    "reverse": false,
+    "display": true,
+    "autoSkip": true,
+    "autoSkipPadding": 0,
+    "labelOffset": 0,
+    "minor": {},
+    "major": {}
+  }
+}
