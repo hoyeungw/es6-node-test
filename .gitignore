@@ -1,4 +1,4 @@
 .gitignore
 .idea
 another/
-test/zestLab/*.json
+test/*.json
