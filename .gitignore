@@ -2,3 +2,4 @@
 .idea
 another/
 test/*.json
+package-lock.json
