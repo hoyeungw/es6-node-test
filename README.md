@@ -6,9 +6,16 @@
   <a href="https://www.npmjs.com/package/es6-node-test"><img src="https://img.shields.io/npm/l/es6-node-test.svg" alt="License"></a>
 </p>
 
+## Usage
+
 Debug an es6 module under nodejs, a simple example.
 
 Open package.json, run/debug either "test_1" or "test_2".
+
+## Note
+
+Employing "babel-preset-env" instead of "babel-preset-es2015":
+<a href="https://babeljs.io/docs/en/env/">babel-preset-es2015 -> babel-preset-env</a>
 
 ## License
 
