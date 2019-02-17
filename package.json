@@ -1,9 +1,19 @@
 {
   "name": "es6-node-test",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An example to test es6 with node under webstorm",
   "author": "Hoyeung Wong <hoyeungw@outlook.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoyeungw/es6-node-test.git"
+  },
+  "keywords": [
+    "es6",
+    "module",
+    "node",
+    "nodejs"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test-1": "node $NODE_DEBUG_OPTION test/index.js",
