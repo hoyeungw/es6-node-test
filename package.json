@@ -1,26 +1,20 @@
 {
   "name": "es6-node-test",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An example to test es6 with node under webstorm",
   "author": "Hoyeung Wong <hoyeungw@outlook.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hoyeungw/es6-node-test.git"
-  },
-  "keywords": [
-    "es6",
-    "module",
-    "node",
-    "nodejs"
-  ],
   "main": "src/index.js",
   "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "publish": "npm publish",
     "test-1": "node $NODE_DEBUG_OPTION test/index.js",
     "test-2": "node test/index.js -r babel-register"
   },
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
@@ -39,5 +33,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoyeungw/es6-node-test.git"
+  },
+  "keywords": [
+    "es6",
+    "module",
+    "node",
+    "nodejs"
   ]
 }
