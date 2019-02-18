@@ -4,13 +4,13 @@
   "description": "An example to test es6 with node under webstorm",
   "author": "Hoyeung Wong <hoyeungw@outlook.com>",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "prepublish": "npm run build",
     "publish": "npm publish",
-    "test-1": "node $NODE_DEBUG_OPTION test/index.js",
-    "test-2": "node test/index.js -r babel-register"
+    "test": "node test/index.js -r babel-register",
+    "test-2": "node $NODE_DEBUG_OPTION test/index.js"
   },
   "dependencies": {},
   "devDependencies": {
